@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayudanos a seguir creciendo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="shorcut icon" href="../IMG/Icono sin tac.jfif">
+    <link rel="stylesheet" href="../estilos/css/estilos.css">
+</head>
+<body>
+    
+   <nav >
+      <ul class="encabezados">
+  <li><a class="encabezados__diseño"  href="./Recetas.html"> Recetas </a></li>
+  <li><a class="encabezados__diseño"  href="./logeo.html">Logeo</a></li>
+  <li><a class="encabezados__diseño"  href="./nosotros.html">Nosotros</a></li>
+  <li><a class="encabezados__diseño" href="./ayudanos.html">Ayúdanos</a></li>
+  <li><a class="encabezados__diseño" href="../index.html">Índex</a></li>
+      </ul>
+    </nav>
+      <form class="formularioando__dos" action="" method="GET" enctype="text/plain">
+        <fieldset class="cuadros">
+           <legend>Crea una cuenta para ti.</legend>
+          <div class="recetas__h">
+             <label>Nombre y Apellido</label>
+             <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
+          </div>
+          <div class="recetas__h">
+             <label  for="email">Email</label>
+             <input type="email" name="email" id="email" required>
+          </div>
+          </div>
+          <div class="recetas__h">
+            <label>Password</label>
+            <input type="password" name="password" id="password" required>
+         </div>
+          
+          </div>
+        </fieldset>
+        <fieldset class="cuadros">
+           <legend>Es necesatio subir una foto de una receta para ser parte de la comunidad</legend>
+          <div class="recetas__h">
+             <label for="bio">Comentario</label>
+             <textarea class="recetas__hg"   required placeholder = "Dejanos un comentario" id="bio" name="bio"></textarea>
+          </div>
+          <div class="recetas__h flotarabajo">
+             <label for="file">Subir Archivo</label>
+             <input class="recetas__hg" id="file" type="file" name="file">
+          </div>
+          <div class="recetas__h">
+             <label for="phone">Teléfono</label>
+             <input class="recetas__hg" type="tel" name="phone" id="phone">
+          </div>
+          <div class="recetas__h">
+             <label for="url">URL</label>
+             <input class="recetas__hg" type="url" name="url" id="url">
+          </div>
+          
+        </fieldset>
+          <input class="recetas__hg" type="reset" value="Reiniciar Formulario"></input>
+          <input  class="recetas__hg" type="submit" value="Enviar Formulario"></input>
+       </form>
+</body>
+</html>

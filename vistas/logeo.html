@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roledra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="shorcut icon" href="../IMG/Icono sin tac.jfif">
+    <link rel="stylesheet" href="../estilos/css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <ul class="encabezados">
+        <li><a class="encabezados__diseño"  href="./Recetas.html"> Recetas </a></li>
+        <li><a class="encabezados__diseño"  href="#">Logeo</a></li>
+        <li><a class="encabezados__diseño"  href="./nosotros.html">Nosotros</a></li>
+        <li><a class="encabezados__diseño" href="./ayudanos.html">Ayúdanos</a></li>
+        <li><a class="encabezados__diseño" href="../index.html" >Índex</a></li>
+            </ul>
+          </nav>
+    </header>
+    <form class="formularioando" action="" method="get" enctype="text/plain">
+        <fieldset>
+            <legend>Inicio de sesion</legend>
+            <div class="recetas__h">
+                <label for="name">Nombre y Apellido</label>
+                <input class="recetas__hg" type="text" name="name" id="name" required placeholder="Introduzca su nombre"> 
+            </div>
+            <div class="recetas__h">
+                <label for="email">Email</label>
+                <input class="recetas__hg" type="text" id="email"required>
+            </div>
+            <div class="recetas__h">
+                <label for="age">Edad</label>
+                <input class="recetas__hg" type="number" name="age" id="age" min="1" max="200">
+            </div>
+            <div class="recetas__h">
+                <label for="date">Fecha de Nacimiento</label>
+                <input class="recetas__hg" type="date" name="date" id="date" min="2020-02-02">
+            </div>
+            <div class="recetas__h">
+                <label for="password">Contraseña</label>
+                <input class="recetas__hg" type="text" name="password" id="password" required placeholder="De 8 a 32 caràcteres">
+            </div>
+        </fieldset>
+        <input class="recetas__hg" type="reset" value="Reiniciar Formulario"></input>
+          <input class="recetas__hg" type="submit" value="Enviar Formulario"></input>
+
+    </form>
+    
+</body>
+</html>
