@@ -13,20 +13,39 @@
     <link rel="stylesheet" href="./estilos/css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
-<body>
-    <header>
-      <nav class="encabeza">
-        <div class="title"><img src="./IMG/Comida sin gluten.jfif"  alt="" width="300px" height="130px"></div>
-        <div class="title"><img src="./IMG/foto del encabezado.png"  alt="" width="300px" height="130px"></div>
-        <ul class="encabezados">
-    <li class="rotate-center" ><a class="encabezados__diseño"  href="./vistas/Recetas.html">Recetas </a></li>
-    <li class="rotate-center"><a class="encabezados__diseño"  href="./vistas/Logeo.html">Logeo</a></li>
-    <li class="rotate-center"><a class="encabezados__diseño"  href="./vistas/Nosotros.html">Nosotros</a></li>
-    <li class="rotate-center"><a class="encabezados__diseño" href="./vistas/Ayudanos.html">Ayúdanos</a></li>
-    <li class="rotate-center"><a class="encabezados__diseño" href="#">Índex</a></li>
-       
-  </ul>
-      </nav>
+
+      <body class="colorblack">
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img width="auto" src="./img/Logo empresarial bb.png" alt=""></a>
+            <button class="navmi__buttom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navmi"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item navmi">
+                  <a class="nav-link active" aria-current="page" href="#">Index</a>
+                </li>
+                <li class="nav-item navmi">
+                  <a class="nav-link" href="./vistas/recetas.html">Recetas</a>
+                </li>
+                <li class="nav-item navmi">
+                  <a class="nav-link" href="./vistas/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown navmi">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Comunidad
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./vistas/logeo.html">Logueo</a></li>
+                    <li><a class="dropdown-item" href="./vistas/ayudanos.html">Ayudanos</a></li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
   <section class="titulo">
 <h2 class="secciones__titulo titulo">La mejor manera de cocinar sin TACC.</h2>
   </section>
@@ -42,9 +61,9 @@
           </span>
         </div>
 
-        <article class="grid">
+        <article class="gridz">
           
-            <section class="grid">
+            <section class="gridz">
               <div class="flex-item secciones">
                 <img src="./IMG/Foto de Ravioles Recetas e index.webp" alt="">
                 <h2>Ravioles sin TACC </h2>
@@ -91,7 +110,15 @@
               </div>
               
             </section>
-            <footer>
+            
+              </div>
+           
+        </article>
+
+      
+        </nav>
+                       
+<footer>
               <div class="container">
                 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top lg	">
                   <div class="col-md-4 d-flex align-items-center">
@@ -107,12 +134,10 @@
                     <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
                   </ul>
                 </footer>
-              </div>
-            </footer>
-        </article>
-
-      
-        </nav>
-<footer>
+ 
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
 </body>
 </html>
