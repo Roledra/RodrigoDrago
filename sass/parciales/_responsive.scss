@@ -1,0 +1,37 @@
+@media only screen and (max-width: 780px){
+    .gridz{
+      display: flex;
+      flex-direction: column;
+      background-color: antiquewhite;
+  }
+  .titulo{
+    font-size: 20px;
+    
+  }
+  .titulo{
+    font-size: 20px;
+  }
+  .colorblack{
+    background-color: red;
+  }
+  }
+    
+  
+  @media only screen and (max-width:500px) {
+    .gridz {
+      display: flex;
+      flex-direction: column;
+    }
+    .secciones__titulo{
+       font-size: 15px;
+    }
+    .titulo{
+      font-size: 15px;
+    }
+  .romeo{
+    max-width: 300px;
+  }
+  .colorblack{
+    background-color: #29f48f;
+  }
+  }

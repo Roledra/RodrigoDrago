@@ -1,0 +1,23 @@
+@import "./responsive";
+.encabezados {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+
+
+
+
+  
+
+  &__diseño {
+    padding: 0.2rem;
+    margin: 00.5rem;
+
+}
+
+  .encabeza {
+    display: flex;
+    flex-direction: column;
+  }
+}

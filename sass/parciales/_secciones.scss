@@ -1,0 +1,32 @@
+@import "./responsive";
+.secciones {
+    border: 2px solid black;
+    margin: 2rem;
+    background-color: aqua;
+    border-radius: 5px;
+  
+  
+  &__titulo {
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 1px;
+    background-color: rgb(197, 106, 219);
+    border: solid 3px rgb(3, 3, 3);
+    display: inline;
+    font-size: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+  
+  
+  
+    &__titulosecundario {
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 1px;
+    background-color: blue;
+    border: solid 2px cornflowerblue;
+    font-size: 15px;
+  
+  }
+}
+}
