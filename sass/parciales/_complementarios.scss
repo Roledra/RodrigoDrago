@@ -10,7 +10,7 @@ body {
   }
   
   .colorblack {
-    background-color: rgb(130, 235, 60);
+    background-color: rgb(7, 7, 7);
   }
   
   .ingredientes {
@@ -51,9 +51,8 @@ body {
     flex-direction: column;
     border: 4px solid green;
   }
-  .gridz .flex-item {
-    box-shadow: 10px 10px 5px rgb(180, 99, 24);
-    border: solid 10px red;
+  .gridz .flex-item { 
+    border: solid 10px rgb(255, 255, 255);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -92,7 +91,9 @@ body {
     text-align: justify;
   }
   .cuadros {
-    font-size: 45px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
   }
   .submitderecho {
     text-align: left;
@@ -123,5 +124,132 @@ body {
   }
   a.ingredientes {
     font-size: 40px;
-  }
+  } 
+
   
+    @font-face {
+      font-family: 'icomoon';
+      src:  url('../../fonts/icomoon.eot?oai1pv');
+      src:  url("../../fonts/icomoon.eot") format('embedded-opentype'),
+        url('../../fonts/icomoon.ttf') format('truetype'),
+        url('../../fonts/icomoon.woff') format('woff'),
+        url('../../fonts/icomoon.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+    }
+  
+    
+    [class^="icon-"], [class*=" icon-"] {
+      font-family: 'icomoon';
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+    
+    }
+    
+    .icon-facebook2:before {
+      content: "\ea91";
+    }
+    .icon-instagram:before {
+      content: "\ea92";
+    }
+    .icon-youtube2:before {
+      content: "\ea9e";
+    }
+     .social-bar{
+      right: 0;
+      top: 35%;
+      font-size: 3rem;
+      display: flex;
+      flex-direction: row;
+  align-items: flex-end;
+  z-index: 100;
+  text-decoration: none;
+     }
+     .icon{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      padding: 7rem;
+      display:flex;
+text-decoration: none;
+    
+     }
+.icon-facebook2{
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+}
+.icon-youtube2{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.icon-instagram{
+  background-color: rgb(255, 255, 254);
+  border-radius: 10px;
+}
+.derechon{
+  
+ float: right;
+ display: block;
+
+}
+.form-login {
+  width: 400px;
+  height: 600px;
+  background: #4e4d4d;
+  margin: auto;
+  margin-top: 180px;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid #017bab;
+  color: white;
+}
+
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+.controls {
+  width: 100%;
+  border: 1px solid #017bab;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background: #252323;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.buttons {
+  width: 100%;
+  height: 40px;
+  background: #017bab;
+  border: none;
+  
+  margin-bottom: 16px;
+}
+
+.form-login p{
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
+.lemon{
+  
+}

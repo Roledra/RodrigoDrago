@@ -2,16 +2,29 @@
 .recetas {
     text-align: center;
     font-size: 20px;
-  
-  
-  
-  .recetas__h {
-    font-size: 30px;
-    text-align: justify;
-  
-  
-  .recetas__hg {
-    font-size: 30px;
+
+
+    &__hgb{align-items: center;
+      background-color: rgb(16, 107, 28);
+      border-radius: 30px;
+      margin: 30px;;
+      text-align:center;  
+      margin-top: 1rem;
+      box-shadow: 3px solid red;
+      height: 80%;
+      width: 80%;
+      
+
+
+
+
+
+      &__centrar{text-align: center;
+
+        &__fondo{
+         background-color: aqua;
+        }
+      }
+
+    }
   }
-}
-}
